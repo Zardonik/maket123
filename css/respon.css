@@ -1,0 +1,23 @@
+@media screen and (max-width: 1300px) {
+  .bk {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-left: 6%;
+	}
+	.block {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 50px;
+	}
+	.block>img {
+    border: 1px solid #c7c7c7;
+    padding: 3px;
+    width: 140%;
+    height: 100%;
+	}
+}
